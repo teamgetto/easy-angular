@@ -1,2 +1,0 @@
-# easy-angular
-easy-angular
