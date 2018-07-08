@@ -53,6 +53,6 @@ export class LanguageService {
     if (foundItem === undefined) {
       return '??_' + key + '_??' ;
     }
-    return foundItem.value ;
+    return foundItem.value ;  // buraya comment eklendi.
   }
 }
