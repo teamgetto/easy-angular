@@ -1,0 +1,21 @@
+<div id="login_form">
+  <form name="f1" method="post" action="login.php" id="f1">
+    <table>
+      <tr>
+        <td class="f1_label">{{'User Name' | translate}} :</td>
+        <td><input type="text" name="username" value="" [(ngModel)]="loginDto.username" />
+        </td>
+      </tr>
+      <tr>
+        <td class="f1_label">{{'Password' |translate}}  :</td>
+        <td><input type="password" name="password" value="" [(ngModel)]="loginDto.password"  />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <button (click)="formLogin()">{{'Log In' | translate}}</button>
+        </td>
+      </tr>
+    </table>
+  </form>
+</div>

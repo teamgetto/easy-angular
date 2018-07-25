@@ -22,7 +22,8 @@ export class LanguageService {
             new LanguageSubItems('Password', 'Password'),
             new LanguageSubItems('Log In', 'Log In'),
             new LanguageSubItems('Turkish', 'Turkish'),
-            new LanguageSubItems('English', 'English')
+            new LanguageSubItems('English', 'English'),
+            new LanguageSubItems('Loading', 'Loading')
           ])
       ),
         new LanguageItem(LanguageType.Turkish,
@@ -33,6 +34,7 @@ export class LanguageService {
               new LanguageSubItems('Log In', 'Giris Yap'),
               new LanguageSubItems('Turkish', 'Turkce'),
               new LanguageSubItems('English', 'Ingilizce'),
+              new LanguageSubItems('Loading', 'Yukleniyor')
             ])
       )]);
   }
